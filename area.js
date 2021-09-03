@@ -10,7 +10,7 @@ return areaOfTriangle;
 function calculateArea(){
     const areaOfTriangle = calculateAreaOfTriangle(Number(sides[0].value), Number(sides[1].value));
     const lengthOfTriangle = areaOfTriangle;
-    outputEl.innerText = "The area of triangle is " + lengthOfTriangle;
+    outputEl.innerText = "The area of triangle is " + lengthOfTriangle + " cm sqare ";
 }
 
 checkAreaBtn.addEventListener("click", calculateArea);

@@ -15,8 +15,47 @@ body{
 }
 input , label{
     display: block;
+    margin: auto;
+    padding: 1rem;
+    width: 20vw;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+
+
 }
+/* }
 input{
     margin: auto;
+} */
+
+button{
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 20vw;
+    font-size: 1.4rem;
+    border-radius: 1.5rem;
+    background-color: #2a9d8f;
+    margin-bottom: 2rem;
 }
 
+.navigation {
+    /* display: block;
+    margin:auto; */
+    padding: 3rem;
+    background-color:#2a9d8f;
+    text-decoration: none;
+    
+
+}
+
+.navigation a{
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+}
+
+
+h1{
+    color: #780000;
+}
